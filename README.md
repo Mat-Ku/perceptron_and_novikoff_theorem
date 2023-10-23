@@ -17,3 +17,4 @@ Retrievable under: https://cs.uwaterloo.ca/~y328yu/classics/novikoff.pdf
 
 ## Results
 The perceptron was implemented with a learning rate of 0.01 and it took 96 iterations until it had converged. Therefore, all test data instances were classified correctly. 
+Furthermore, the upper bound given by the Novikoff theorem, holds.
