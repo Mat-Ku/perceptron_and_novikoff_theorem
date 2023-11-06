@@ -76,7 +76,7 @@ class Perceptron(object):
         instance, and determine its bias in such a way, that it runs through the respective data point. Once this normal
         is found, the point of intersection between the normal and the separating line is determined. Finally, the
         distance between each training data instance and the intersection is calculated along the respective normal. The
-        shortest distance of each class is chosen. Both are added and divided by zero, thereby yielding the equal
+        shortest distance of each class is chosen. Both are added and divided by two, thereby yielding the equal
         distance margin.
 
         :param x_train_positive: Training instances belonging to the positive class
