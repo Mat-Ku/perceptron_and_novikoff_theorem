@@ -1,8 +1,8 @@
 # Perceptron and Novikoff Theorem
-Implementation of perceptron algorithm including the rule established by the Novikoff theorem.
+Implementation of perceptron algorithm including the verification of the Novikoff theorem.
 
 ## Description
-The perceptron algoriithm is a binary classificatio algorithm that is able to fit a separating line between two classes of linearly separable data. In order to do so, it iteratively adjusts the slope and intercept of the line as long as there are falsely classified training
+The perceptron algorithm is a binary classification algorithm that is able to fit a separating line between two classes of linearly separable data. In order to do so, it iteratively adjusts the slope and intercept of the line as long as there are falsely classified training
 data instances. In case the data is not linearly separable, the algorithm will not converge. The Novikoff theorem builds on this algorithm, claiming that there is an upper bound for the number of iterations needed until the algorithm has fitted a line that
 separates the two classes from each other.
 
@@ -16,5 +16,5 @@ Novikoff, 1962: On convergence proofs on perceptrons. Symposium on the Mathemati
 Retrievable under: https://cs.uwaterloo.ca/~y328yu/classics/novikoff.pdf
 
 ## Results
-The perceptron was implemented with a learning rate of 0.01 and it took 96 iterations until it had converged. Therefore, all test data instances were classified correctly. 
+The perceptron was implemented with a learning rate of 0.01 and took 96 iterations until convergence. Therefore, all test data instances were classified correctly. 
 Furthermore, the upper bound given by the Novikoff theorem holds.
